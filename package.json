@@ -1,0 +1,36 @@
+{
+    "name": "ts-study",
+    "version": "1.0.0",
+    "description": "",
+    "main": "src/index.js",
+    "scripts": {
+        "build": "tsc",
+        "build:w": "tsc -w",
+        "start": "nodemon ./dist/index.js",
+        "test": "jest",
+        "test:c": "jest --coverage",
+        "test:w": "jest --watchAll --coverage",
+        "lint": "eslint \"src/**\"",
+        "lint:f": "eslint \"src/**\" --fix ",
+        "format": "prettier --write '{.,__tests__,src/**}/*.{ts,tsx}'"
+    },
+    "keywords": [],
+    "author": "",
+    "license": "ISC",
+    "devDependencies": {
+        "@types/jest": "^27.4.0",
+        "@types/react": "^17.0.38",
+        "@typescript-eslint/parser": "^5.9.1",
+        "jest": "^27.4.7",
+        "nodemon": "^2.0.15",
+        "prettier": "^2.5.1",
+        "ts-jest": "^27.1.2",
+        "typescript": "^4.5.4"
+    },
+    "dependencies": {
+        "eslint": "^8.6.0",
+        "eslint-plugin-react": "^7.28.0",
+        "react": "^17.0.2",
+        "redux": "^4.1.2"
+    }
+}
