@@ -402,3 +402,4 @@ assigned(1, 2, 3, 4);
 
 import * as type5 from './ts/type5';
 import * as type6 from './ts/type6';
+import * as type7 from './ts/type7';
