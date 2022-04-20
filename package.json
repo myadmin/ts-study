@@ -21,7 +21,7 @@
         "@types/jest": "^27.4.0",
         "@types/react": "^17.0.38",
         "@typescript-eslint/parser": "^5.9.1",
-        "jest": "^27.4.7",
+        "jest": "^27.5.1",
         "nodemon": "^2.0.15",
         "prettier": "^2.5.1",
         "ts-jest": "^27.1.2",
